@@ -132,36 +132,21 @@ function conversion(){
 		valeur2 = valeur2 + array2[i];
 	}
 }
-
 function calcul(){
 	if (ope == "+"){
-		calculPlus();
+		final = valeur1 + valeur2;
 	}else if (ope == "-"){
-		calculMoins();
+		final = valeur1 - valeur2;
 	}else if (ope == "*"){
-		calculFois();
+		final = valeur1 * valeur2;
 	}else if (ope == "/"){
-		calculDiv();
+		final = valeur1 / valeur2;
 	}
 }
 function display(){
 	resultat.innerHTML = final;
 	lastResultat.innerHTML = valeur1+ope+valeur2;
 }
-
-function calculPlus(){
-	final = valeur1 + valeur2;
-}
-function calculMoins(){
-	final = valeur1 - valeur2;
-}
-function calculFois(){
-	final = valeur1 * valeur2;
-}
-function calculDiv(){
-	final = valeur1 / valeur2;
-}
-
 function arrayFunc(){
 	if (ope == ""){
 		array1 = array1.map(x => x * 10);
