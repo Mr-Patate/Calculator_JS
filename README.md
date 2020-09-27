@@ -1,8 +1,7 @@
 # Calculator_JS
 HTML/CSS/JS Calculator
 
-This is my first project. It is a simple calculator.
-This is a + - * / Calculator
+This is a simple + - * / Calculator.
 
 *******
 
